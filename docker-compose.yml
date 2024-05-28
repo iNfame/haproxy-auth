@@ -1,0 +1,11 @@
+version: '3.7'
+
+services:
+  haproxy:
+    build: .
+    ports:
+      - "20100:20100"
+    volumes:
+      - ./haproxy.cfg:/usr/local/etc/haproxy/haproxy.cfg
+      - ./auth.lua:/usr/local/etc/haproxy/auth.lua
+      - ./backend.map:/usr/local/etc/haproxy/backend.map
