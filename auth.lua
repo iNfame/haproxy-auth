@@ -1,7 +1,5 @@
 local proxies = {
-    { key = "dXNlcjkyNjIyOnd4MHQ2bQ==", ip = "149.126.246.46", port = "5126" },
-    { key = "dXNlcjkyNjIyOnd4MHQ2bQ==", ip = "149.126.246.199", port = "5126" },
-    { key = "QVVEYk5kMUs6MTVheWkyVmo=", ip = "45.140.62.181", port = "62192" },
+    { key = "a0FZQXYxOmh5UlV2OHNBTmFQWg==", ip = "cproxy.site", port = "12338" },
 }
 
 function set_proxy(txn)
